@@ -1,116 +1,145 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
-    },
-    "projects": [
+  "basic_info": {
+    "description_header": "Hola",
+    "description": "👋 Hola, soy Ricardo López Hernández. Como desarrollador de software con 8 años de experiencia en JavaScript, ReactJS V16, Angular V17, Java V12 y diseño UI/UX, me especializo en crear interfaces web dinámicas y centradas en el usuario. 💻 Mi experiencia incluye colaborar eficazmente en inglés con equipos internacionales, asegurando la entrega de aplicaciones visualmente atractivas e intuitivas, alineadas con los estándares de la industria y las tendencias emergentes. 🌐 Además, tengo un sólido conocimiento de Java y Spring Framework, utilizándolos en tareas como procesos ETL para la integración de datos. 🚀 Esta combinación de habilidades me permite contribuir de manera integral a proyectos que requieren tanto desarrollo frontend como procesamiento de datos backend. Aquí están algunas de las tecnologías con las que trabajo: ",
+    "section_name": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia"
+    }
+  },
+  "skills": {
+    "icons": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "90"
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+        "name": "React.js",
+        "class": "devicon-react-original",
+        "level": "85"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain",
+        "level": "75"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "85"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "80"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "70"
+      },
+      {
+        "name": "Java",
+        "class": "devicon-java-plain",
+        "level": "65"
+      },
+      {
+        "name": "Spring Boot",
+        "class": "devicon-spring-plain",
+        "level": "60"
       }
     ]
-  }
+  },
+  "experience": [
+    {
+      "company": "Globant",
+      "title": "Ingeniero de Software Sr en Disney Streaming (contratista)",
+      "years": "2021–2024",
+      "mainTech": ["React.js", "Angular", "AWS"],
+      "technologies": [
+        "JavaScript",
+        "Diseño Responsivo",
+        "Amazon S3",
+        "Amazon EC2 Auto Scaling",
+        "AWS Lambda",
+        "Git",
+        "Diseño UI/UX",
+        "Optimización de Rendimiento",
+        "Integración de Contenido Dinámico",
+        "Pruebas de Compatibilidad Multiplataforma"
+      ]
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "title": "Desarrollador Frontend Sr",
+      "years": "2020–2021",
+      "mainTech": ["React.js", "Angular", "JavaScript"],
+      "technologies": [
+        "Arquitectura Frontend",
+        "Revisiones de Código",
+        "Colaboración con Clientes",
+        "Interfaces Interactivas",
+        "Implementación de Mejores Prácticas"
+      ]
+    },
+    {
+      "company": "Softtek",
+      "title": "Desarrollador Fullstack Semi-Sr",
+      "years": "2019–2020",
+      "mainTech": ["React.js", "Angular", "JavaScript"],
+      "technologies": [
+        "Soluciones Frontend Escalables",
+        "Colaboración Multifuncional",
+        "Mentoría",
+        "Aplicaciones Web"
+      ]
+    },
+    {
+      "company": "DigitalOnUs",
+      "title": "Desarrollador Frontend Jr",
+      "years": "2018–2019",
+      "mainTech": ["React.js", "Angular", "JavaScript"],
+      "technologies": [
+        "Desarrollo de MVP",
+        "Soluciones Frontend Escalables",
+        "Colaboración Multifuncional"
+      ]
+    },
+    {
+      "company": "Previta Software Interns",
+      "title": "Practicante de Software",
+      "years": "2016–2018",
+      "mainTech": ["Angular", "Java", "Spring Boot"],
+      "technologies": [
+        "APIs RESTful",
+        "Operaciones de Base de Datos",
+        "Compatibilidad entre Dispositivos",
+        "Implementación de Lógica de Negocio",
+        "Implementación de Componentes Frontend"
+      ]
+    }
+  ]
+}
