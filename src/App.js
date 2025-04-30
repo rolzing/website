@@ -95,7 +95,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
+              data-icon="twemoji-flag-for-flag-united-states"
               data-inline="false"
               id={window.$primaryLanguageIconId}
             ></span>
@@ -111,7 +111,7 @@ class App extends Component {
           >
             <span
               className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+              data-icon="twemoji-flag-for-flag-mexico"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>
@@ -120,10 +120,6 @@ class App extends Component {
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
         />
         <Skills
           sharedSkills={this.state.sharedData.skills}
