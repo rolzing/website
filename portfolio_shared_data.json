@@ -10,13 +10,13 @@
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/riclopezh/",
+        "url": "https://www.instagram.com/riclopezh",
         "class": "fab fa-instagram"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/richardlpzy/",
-        "class": "fab fa-linkedin"
+        "url": "https://www.linkedin.com/in/riclopezh",
+        "class": "fab fa-linkedin-in"
       }
     ],
     "image": "myProfile.jpg"
@@ -25,102 +25,122 @@
     "icons": [
       {
         "name": "HTML 5",
-        "class": "devicon-html5-plain",
+        "class": "devicon-html5-plain colored",
         "level": "95"
       },
       {
         "name": "CSS 3",
-        "class": "devicon-css3-plain",
+        "class": "devicon-css3-plain colored",
         "level": "95"
       },
       {
         "name": "Angular",
-        "class": "devicon-angularjs-plain",
+        "class": "devicon-angularjs-plain colored",
         "level": "80"
       },
       {
         "name": "TypeScript",
-        "class": "devicon-typescript-plain",
+        "class": "devicon-typescript-plain colored",
         "level": "90"
       },
       {
         "name": "JavaScript",
-        "class": "devicon-javascript-plain",
+        "class": "devicon-javascript-plain colored",
         "level": "90"
       },
       {
         "name": "Sass",
-        "class": "devicon-sass-original",
+        "class": "devicon-sass-plain colored",
         "level": "75"
       },
       {
         "name": "Bootstrap",
-        "class": "devicon-bootstrap-plain",
+        "class": "devicon-bootstrap-plain colored",
         "level": "85"
       },
       {
-        "name": "C#",
-        "class": "devicon-csharp-plain",
-        "level": "65"
-      },
-      {
         "name": "MySQL",
-        "class": "devicon-mysql-plain",
+        "class": "devicon-mysql-plain colored",
         "level": "60"
       },
       {
         "name": "React.js",
-        "class": "devicon-react-original",
+        "class": "devicon-react-original colored",
         "level": "85"
       },
       {
+        "name": "Redux",
+        "class": "devicon-redux-original colored",
+        "level": "80"
+      },
+      {
+        "name": "Express.js",
+        "class": "devicon-express-original colored",
+        "level": "70"
+      },
+      {
         "name": "AWS",
-        "class": "devicon-amazonwebservices-plain",
+        "class": "devicon-amazonwebservices-plain colored",
         "level": "75"
       },
       {
         "name": "Material UI",
-        "class": "devicon-materialui-plain",
+        "class": "devicon-materialui-plain colored",
         "level": "80"
       },
       {
         "name": "Webpack",
-        "class": "devicon-webpack-plain",
+        "class": "devicon-webpack-plain colored",
         "level": "85"
       },
       {
         "name": "Babel",
-        "class": "devicon-babel-plain",
+        "class": "devicon-babel-plain colored",
         "level": "80"
       },
       {
         "name": "Jest",
-        "class": "devicon-jest-plain",
+        "class": "devicon-jest-plain colored",
         "level": "75"
       },
       {
         "name": "Java",
-        "class": "devicon-java-plain",
+        "class": "devicon-java-plain colored",
         "level": "65"
       },
       {
         "name": "Spring Boot",
-        "class": "devicon-spring-plain",
+        "class": "devicon-spring-plain colored",
         "level": "60"
       },
       {
-        "name": "ESLint",
-        "class": "devicon-eslint-original",
+        "name": "Git",
+        "class": "devicon-git-plain colored",
+        "level": "90"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon-jira-plain colored",
+        "level": "80"
+      },
+      {
+        "name": "Node.js",
+        "class": "devicon-nodejs-plain colored",
         "level": "70"
       },
       {
         "name": "Karma",
-        "class": "devicon-karma-plain",
+        "class": "devicon-karma-plain colored",
         "level": "70"
       },
       {
         "name": "SQL",
-        "class": "devicon-mysql-plain",
+        "class": "devicon-mysql-plain colored",
+        "level": "60"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain colored",
         "level": "60"
       }
     ]
