@@ -15,7 +15,8 @@
       "company": "Tech Mahindra",
       "title": "Sr Software Engineer at The Bank of Nova Scotia",
       "years": "2024–Present",
-      "mainTech": [
+      "mainTech": [],
+      "technologies": [
         "React.js",
         "Angular",
         "AWS",
@@ -37,11 +38,7 @@
         "UI/UX Design",
         "Performance Optimization",
         "Responsive Design",
-        "Cross-Platform Testing"
-      ],
-      "technologies": [
-        "JavaScript",
-        "Responsive Design",
+        "Cross-Platform Testing",
         "Amazon S3",
         "Amazon EC2 Auto Scaling",
         "AWS Lambda",
@@ -56,7 +53,8 @@
       "company": "Globant",
       "title": "Sr Software Engineer at The Walt Disney Company",
       "years": "2021–2024",
-      "mainTech": [
+      "mainTech": [],
+      "technologies": [
         "React.js",
         "Angular",
         "AWS",
@@ -78,10 +76,7 @@
         "UI/UX Design",
         "Performance Optimization",
         "Responsive Design",
-        "Cross-Platform Testing"
-      ],
-      "technologies": [
-        "JavaScript",
+        "Cross-Platform Testing",
         "Responsive Design",
         "Amazon S3",
         "Amazon EC2 Auto Scaling",
@@ -89,15 +84,15 @@
         "Git",
         "UI/UX Design",
         "Performance Optimization",
-        "Dynamic Content Integration",
-        "Cross-Platform Testing"
+        "Dynamic Content Integration"
       ]
     },
     {
       "company": "Tata Consultancy Services",
       "title": "Sr Frontend Dev",
       "years": "2020–2021",
-      "mainTech": [
+      "mainTech": [],
+      "technologies": [
         "React.js",
         "Angular",
         "AWS",
@@ -115,9 +110,7 @@
         "Jira",
         "Confluence",
         "Agile",
-        "Scrum"
-      ],
-      "technologies": [
+        "Scrum",
         "Frontend Architecture",
         "Code Reviews",
         "Client Collaboration",
@@ -141,8 +134,11 @@
       "company": "DigitalOnUs",
       "title": "Frontend Jr",
       "years": "2018–2019",
-      "mainTech": ["React.js", "Angular", "JavaScript"],
+      "mainTech": [],
       "technologies": [
+        "React.js",
+        "Angular",
+        "JavaScript",
         "MVP Development",
         "Scalable Frontend Solutions",
         "Cross-Functional Collaboration"
@@ -152,8 +148,11 @@
       "company": "Previta Software Interns",
       "title": "Software Intern",
       "years": "2016–2018",
-      "mainTech": ["Angular", "Java", "Spring Boot"],
+      "mainTech": [],
       "technologies": [
+        "Angular",
+        "Java",
+        "Spring Boot",
         "RESTful APIs",
         "Database Operations",
         "Cross-Device Responsiveness",

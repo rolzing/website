@@ -37,7 +37,9 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={
+              <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+            }
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
