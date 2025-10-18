@@ -27,9 +27,31 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
-                    src={profilepic}
-                    alt="Avatar placeholder"
+                    src={(() => {
+                      const imgField =
+                        this.props.sharedBasicInfo?.image || "myProfile.png";
+                      const normalized = imgField.startsWith("/")
+                        ? imgField.replace(/^\/+/, "")
+                        : imgField.startsWith("images/")
+                        ? imgField
+                        : `images/${imgField}`;
+                      return `${
+                        process.env.PUBLIC_URL || ""
+                      }/${normalized}`.replace(/\/+/g, "/");
+                    })()}
+                    alt={
+                      this.props.sharedBasicInfo?.name || "Avatar placeholder"
+                    }
+                    onError={(e) => {
+                      e.target.onerror = null;
+                      e.target.src = `${
+                        process.env.PUBLIC_URL || ""
+                      }/placeholder.png`;
+                      console.warn(
+                        "Profile image failed to load, fallback used:",
+                        e.target.src
+                      );
+                    }}
                   />
                   <Icon
                     icon={javascriptIcon}

@@ -7,7 +7,8 @@ class Header extends Component {
 
   constructor() {
     super();
-    this.state = { checked: false };
+    // Iniciar siempre en dark theme
+    this.state = { checked: true };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
@@ -16,15 +17,9 @@ class Header extends Component {
   }
 
   setInitialTheme() {
-    const prefersDarkMode =
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    this.setState({ checked: "dark" });
-    document.body.setAttribute(
-      "data-theme",
-      prefersDarkMode ? "dark" : "light"
-    );
+    // Forzar tema oscuro al iniciar
+    this.setState({ checked: true });
+    document.body.setAttribute("data-theme", "dark");
   }
 
   onThemeSwitchChange(checked) {
