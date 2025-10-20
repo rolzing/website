@@ -25,11 +25,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:ver": "REACT_APP_VERSION=$(node -p \"require('./package.json').version\") react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "REACT_APP_VERSION=$(node -p \"require('./package.json').version\") npm run build",
     "deploy": "gh-pages -d build",
-    "deploy:all": "npm run build && gh-pages -d build"
+    "deploy:all": "REACT_APP_VERSION=$(date -u +%Y.%m.%d-%H%M%S) npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

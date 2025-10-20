@@ -25,7 +25,8 @@ class Footer extends Component {
                 Copyright &copy;{" "}
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
-                  : "???"}
+                  : "???"}{" "}
+                | v{process.env.REACT_APP_VERSION || " dev"}
               </small>
             </div>
           </div>
