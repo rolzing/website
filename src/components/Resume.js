@@ -59,7 +59,7 @@ const Resume = () => {
           </Col>
         </Row>
 
-        <Row className="justify-content-center">
+        <Row className="justify-content-center" style={{ marginTop: "24px" }}>
           <Col xs="auto">
             <Button
               as="a"
