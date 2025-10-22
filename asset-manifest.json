@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.c166ef53.chunk.css",
-    "main.js": "/website/static/js/main.a9b5a5e3.chunk.js",
-    "main.js.map": "/website/static/js/main.a9b5a5e3.chunk.js.map",
+    "main.css": "/website/static/css/main.cb5262c8.chunk.css",
+    "main.js": "/website/static/js/main.a231a867.chunk.js",
+    "main.js.map": "/website/static/js/main.a231a867.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.8b65dedb.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.8b65dedb.js.map",
-    "static/css/2.58736d6f.chunk.css": "/website/static/css/2.58736d6f.chunk.css",
-    "static/js/2.4078d9ce.chunk.js": "/website/static/js/2.4078d9ce.chunk.js",
-    "static/js/2.4078d9ce.chunk.js.map": "/website/static/js/2.4078d9ce.chunk.js.map",
+    "static/css/2.bee5c351.chunk.css": "/website/static/css/2.bee5c351.chunk.css",
+    "static/js/2.2268e048.chunk.js": "/website/static/js/2.2268e048.chunk.js",
+    "static/js/2.2268e048.chunk.js.map": "/website/static/js/2.2268e048.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.d42648b5b09734ab3a3e22d704681153.js": "/website/precache-manifest.d42648b5b09734ab3a3e22d704681153.js",
+    "precache-manifest.f69f2cb66ddc84ec01800ea59aab3650.js": "/website/precache-manifest.f69f2cb66ddc84ec01800ea59aab3650.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/2.58736d6f.chunk.css.map": "/website/static/css/2.58736d6f.chunk.css.map",
-    "static/css/main.c166ef53.chunk.css.map": "/website/static/css/main.c166ef53.chunk.css.map",
-    "static/js/2.4078d9ce.chunk.js.LICENSE.txt": "/website/static/js/2.4078d9ce.chunk.js.LICENSE.txt",
+    "static/css/2.bee5c351.chunk.css.map": "/website/static/css/2.bee5c351.chunk.css.map",
+    "static/css/main.cb5262c8.chunk.css.map": "/website/static/css/main.cb5262c8.chunk.css.map",
+    "static/js/2.2268e048.chunk.js.LICENSE.txt": "/website/static/js/2.2268e048.chunk.js.LICENSE.txt",
     "static/media/RicardoLH2.pdf": "/website/static/media/RicardoLH2.02d23400.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.8b65dedb.js",
-    "static/css/2.58736d6f.chunk.css",
-    "static/js/2.4078d9ce.chunk.js",
-    "static/css/main.c166ef53.chunk.css",
-    "static/js/main.a9b5a5e3.chunk.js"
+    "static/css/2.bee5c351.chunk.css",
+    "static/js/2.2268e048.chunk.js",
+    "static/css/main.cb5262c8.chunk.css",
+    "static/js/main.a231a867.chunk.js"
   ]
 }
