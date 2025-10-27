@@ -108,7 +108,6 @@ class About extends Component {
                 </div>
               </div>
             </div>
-
               <iframe
                   title="spotify-playlist-3wKPIh6l7maAf4RLZAzViY"
                   data-testid="embed-iframe"
