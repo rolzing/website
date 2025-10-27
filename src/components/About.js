@@ -108,6 +108,18 @@ class About extends Component {
                 </div>
               </div>
             </div>
+              <iframe
+                  title="spotify-playlist-3wKPIh6l7maAf4RLZAzViY"
+                  data-testid="embed-iframe"
+                  src="https://open.spotify.com/embed/playlist/3wKPIh6l7maAf4RLZAzViY?utm_source=generator&theme=0"
+                  width="85%"
+                  height="400"
+                  frameBorder="0"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                  allowFullScreen
+                  style={{ borderRadius: 12 }}
+              />
           </div>
         </div>
       </section>
