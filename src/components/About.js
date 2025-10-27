@@ -108,6 +108,7 @@ class About extends Component {
                 </div>
               </div>
             </div>
+
               <iframe
                   title="spotify-playlist-3wKPIh6l7maAf4RLZAzViY"
                   data-testid="embed-iframe"
@@ -118,7 +119,7 @@ class About extends Component {
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"
                   allowFullScreen
-                  style={{ borderRadius: 12 }}
+                  style={{ borderRadius: 12, marginTop: 20 }}
               />
           </div>
         </div>
