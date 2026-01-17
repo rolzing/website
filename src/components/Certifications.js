@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Row, Col } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
 import ReactResizeDetector from "react-resize-detector";
@@ -16,6 +16,7 @@ const Certifications = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedCertification, setSelectedCertification] = useState(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isSmallPhone, setIsSmallPhone] = useState(window.innerWidth <= 390);
 
   const certifications = [
     { id: 1, title: "Certificación 1", pdf: ScotiabankCert1 },
@@ -23,6 +24,7 @@ const Certifications = () => {
 
   const handleWindowResize = (width) => {
     setIsMobile(width <= 768);
+    setIsSmallPhone(width <= 390);
   };
 
   const handleNext = () => {
@@ -99,8 +101,11 @@ const Certifications = () => {
                           <Page
                             pageNumber={1}
                             width={Math.max(
-                              isMobile ? 200 : 280,
-                              Math.min(width || 500, isMobile ? 350 : 700),
+                              isSmallPhone ? 160 : isMobile ? 200 : 280,
+                              Math.min(
+                                width || 500,
+                                isSmallPhone ? 280 : isMobile ? 350 : 700,
+                              ),
                             )}
                             renderTextLayer={false}
                             renderAnnotationLayer={false}

@@ -5,13 +5,18 @@
     justify-content: space-between;
     gap: 20px;
     position: relative;
+    overflow: hidden;
 
     @media (max-width: 768px) {
       gap: 10px;
     }
 
     @media (max-width: 480px) {
-      gap: 8px;
+      gap: 6px;
+    }
+
+    @media (max-width: 390px) {
+      gap: 4px;
     }
   }
 
@@ -48,10 +53,17 @@
     }
 
     @media (max-width: 480px) {
-      min-width: 40px;
-      min-height: 40px;
-      padding: 8px 12px;
-      font-size: 18px;
+      min-width: 36px;
+      min-height: 36px;
+      padding: 6px 10px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 390px) {
+      min-width: 32px;
+      min-height: 32px;
+      padding: 4px 8px;
+      font-size: 14px;
     }
   }
 
@@ -60,6 +72,7 @@
     display: flex;
     justify-content: center;
     min-height: 400px;
+    overflow: hidden;
 
     @media (max-width: 768px) {
       min-height: 350px;
@@ -67,6 +80,10 @@
 
     @media (max-width: 480px) {
       min-height: 280px;
+    }
+
+    @media (max-width: 390px) {
+      min-height: 240px;
     }
   }
 
@@ -76,9 +93,14 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+    overflow: hidden;
 
     @media (max-width: 480px) {
-      gap: 12px;
+      gap: 10px;
+    }
+
+    @media (max-width: 390px) {
+      gap: 8px;
     }
   }
 
@@ -91,6 +113,7 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
 
     &:hover {
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -114,9 +137,16 @@
     font-weight: 600;
     margin: 0;
     color: var(--text-color);
+    padding: 0 10px;
 
     @media (max-width: 480px) {
       font-size: 16px;
+      padding: 0 8px;
+    }
+
+    @media (max-width: 390px) {
+      font-size: 14px;
+      padding: 0 6px;
     }
   }
 
@@ -126,10 +156,18 @@
     gap: 10px;
     margin-top: 20px;
     flex-wrap: wrap;
+    padding: 0 10px;
 
     @media (max-width: 480px) {
-      gap: 8px;
-      margin-top: 16px;
+      gap: 6px;
+      margin-top: 12px;
+      padding: 0 8px;
+    }
+
+    @media (max-width: 390px) {
+      gap: 4px;
+      margin-top: 10px;
+      padding: 0 6px;
     }
 
     .indicator {
@@ -140,6 +178,7 @@
       background: transparent;
       cursor: pointer;
       transition: all 0.3s ease;
+      flex-shrink: 0;
 
       &.active {
         background: var(--theme-color);
@@ -156,6 +195,20 @@
 
         &.active {
           transform: scale(1.1);
+        }
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      @media (max-width: 390px) {
+        width: 8px;
+        height: 8px;
+        border-width: 1.5px;
+
+        &.active {
+          transform: scale(1);
         }
 
         &:hover {
@@ -181,6 +234,10 @@
 
       @media (max-width: 480px) {
         font-size: 18px;
+      }
+
+      @media (max-width: 390px) {
+        font-size: 16px;
       }
     }
   }
