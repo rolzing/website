@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Col, Button } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import { Document, Page, pdfjs } from "react-pdf";
 import ReactResizeDetector from "react-resize-detector";
 import CertificationModal from "./CertificationModal";
@@ -15,10 +15,15 @@ const Certifications = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
   const [selectedCertification, setSelectedCertification] = useState(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const certifications = [
-    { id: 1, title: "Certificación 1", pdf: ScotiabankCert1 }
+    { id: 1, title: "Certificación 1", pdf: ScotiabankCert1 },
   ];
+
+  const handleWindowResize = (width) => {
+    setIsMobile(width <= 768);
+  };
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % certifications.length);
@@ -58,12 +63,13 @@ const Certifications = () => {
               <button
                 className="carousel-button carousel-button-prev"
                 onClick={handlePrev}
+                aria-label="Previous certification"
               >
                 &lt;
               </button>
 
               <div className="carousel-content">
-                <ReactResizeDetector handleWidth>
+                <ReactResizeDetector handleWidth onResize={handleWindowResize}>
                   {({ width, targetRef }) => (
                     <div ref={targetRef} className="certification-item">
                       <div
@@ -71,6 +77,15 @@ const Certifications = () => {
                         onClick={() =>
                           handleCertificationClick(certifications[currentIndex])
                         }
+                        role="button"
+                        tabIndex={0}
+                        onKeyPress={(e) => {
+                          if (e.key === "Enter" || e.key === " ") {
+                            handleCertificationClick(
+                              certifications[currentIndex],
+                            );
+                          }
+                        }}
                       >
                         <Document
                           file={certifications[currentIndex].pdf}
@@ -83,7 +98,10 @@ const Certifications = () => {
                         >
                           <Page
                             pageNumber={1}
-                            width={Math.max(280, Math.min(width || 500, 700))}
+                            width={Math.max(
+                              isMobile ? 200 : 280,
+                              Math.min(width || 500, isMobile ? 350 : 700),
+                            )}
                             renderTextLayer={false}
                             renderAnnotationLayer={false}
                           />
@@ -100,6 +118,7 @@ const Certifications = () => {
               <button
                 className="carousel-button carousel-button-next"
                 onClick={handleNext}
+                aria-label="Next certification"
               >
                 &gt;
               </button>
@@ -111,6 +130,8 @@ const Certifications = () => {
                   key={index}
                   className={`indicator ${index === currentIndex ? "active" : ""}`}
                   onClick={() => setCurrentIndex(index)}
+                  aria-label={`Go to certification ${index + 1}`}
+                  aria-current={index === currentIndex ? "true" : "false"}
                 />
               ))}
             </div>

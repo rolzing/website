@@ -5,6 +5,14 @@
     justify-content: space-between;
     gap: 20px;
     position: relative;
+
+    @media (max-width: 768px) {
+      gap: 10px;
+    }
+
+    @media (max-width: 480px) {
+      gap: 8px;
+    }
   }
 
   .carousel-button {
@@ -21,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 
     &:hover {
       background: var(--theme-hover-color);
@@ -30,6 +39,20 @@
     &:active {
       transform: scale(0.95);
     }
+
+    @media (max-width: 768px) {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 10px 14px;
+      font-size: 20px;
+    }
+
+    @media (max-width: 480px) {
+      min-width: 40px;
+      min-height: 40px;
+      padding: 8px 12px;
+      font-size: 18px;
+    }
   }
 
   .carousel-content {
@@ -37,6 +60,14 @@
     display: flex;
     justify-content: center;
     min-height: 400px;
+
+    @media (max-width: 768px) {
+      min-height: 350px;
+    }
+
+    @media (max-width: 480px) {
+      min-height: 280px;
+    }
   }
 
   .certification-item {
@@ -45,6 +76,10 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+
+    @media (max-width: 480px) {
+      gap: 12px;
+    }
   }
 
   .certification-preview {
@@ -65,6 +100,12 @@
     &:active {
       transform: scale(0.98);
     }
+
+    @media (max-width: 480px) {
+      &:hover {
+        transform: scale(1);
+      }
+    }
   }
 
   .certification-title {
@@ -73,12 +114,23 @@
     font-weight: 600;
     margin: 0;
     color: var(--text-color);
+
+    @media (max-width: 480px) {
+      font-size: 16px;
+    }
   }
 
   .carousel-indicators {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+    @media (max-width: 480px) {
+      gap: 8px;
+      margin-top: 16px;
+    }
 
     .indicator {
       width: 12px;
@@ -97,6 +149,19 @@
       &:hover {
         transform: scale(1.1);
       }
+
+      @media (max-width: 480px) {
+        width: 10px;
+        height: 10px;
+
+        &.active {
+          transform: scale(1.1);
+        }
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
     }
   }
 
@@ -113,6 +178,10 @@
     .modal-title {
       font-size: 20px;
       font-weight: 600;
+
+      @media (max-width: 480px) {
+        font-size: 18px;
+      }
     }
   }
 }
